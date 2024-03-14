@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color:#060B10;
+}
+#image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-image: url(money-heist-ending-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    /* background-color: #070A10; */
+}
+#navright{
+    position: relative;  
+    justify-content: space-between;
+     align-items: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: #0f3f9e; */
+}
+#navleft{
+    position: relative;  
+    justify-content: space-between;
+     align-items: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: #9e0f62; */
+}
+
+img{
+    position: absolute;
+    top: 51%;
+    left: 63%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    height: 120%;
+    z-index: 5;
+}
+#s{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+    z-index: 2;
+    
+ }
+#navright img{
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translate(-50%,-50%);
+    width: 70px;
+    height: 25px;
+}
+#navright a{
+    top: 40%;
+    left: 28%;
+    transform: translate(-50%,-50%);
+    /* padding-top: 40px; */
+    color: white;
+    align-items: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 9px 6px;
+    padding-top: 22px;
+    position: relative;
+}
+#navleft a{
+    top: 45%;
+    left: 78%;
+    transform: translate(-50%,-50%);
+    /* padding-top: 40px; */
+    color: white;
+    align-items: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 13px 8px;
+    padding-top: 27px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    font-family: fantasy;
+    font-size: 50px;
+    color: red;
+}
+h1 span{
+    position: absolute;
+    top: 50%;
+    left: 300%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 1000px;
+    letter-spacing: 4px;
+    color: white;
+}
+#text{
+    position: absolute;
+    top: 43%;
+    left: 21.50%;
+    transform: translate(-50%,-50%);
+
+}
+#text h2 {
+    font-size: 90px;
+    /* color: #F9F9F9; */
+    color: white;
+    font-family:monospace;
+}
+#text1{
+    position: absolute;
+    top: 55%;
+    left: 19.50%;
+    transform: translate(-50%,-50%);
+
+}
+#text1 p{
+    color: white;
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 30px;
+}
+#main1{
+    position: absolute;
+    top: 63%;
+    left: 4%;
+    width: 8%;
+    height: 7%;
+    background-color: white;
+    border-radius: 5%;
+}
+#main1 h4{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: 1000px;
+}
+#main1 a{
+    position: absolute;
+    top: 53%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    /* font-weight: 1000px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#main2{
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    width: 9%;
+    height: 6%;
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 5%;
+}
+#main2 h1{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: 1000px;
+    font-size: 12px;
+    color: white;
+}
+#main2 a{
+    position: absolute;
+    top: 53%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    /* font-weight: 1000px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#main3{
+    position: absolute;
+    top: 95%;
+    left: 27%;
+transform: translate(-50%,-50%);
+width: 50%;
+/* height: 5%;background-color: rgb(88, 85, 85); */
+z-index: 5;
+}
+#main3 a{
+text-decoration: none;
+margin: 20px;
+padding: 10px 5px;
+color: white;
+font-family: Gilroy;
+font-size: 14px;
+}
+#main3 h1{
+position: absolute;
+top: 139%;
+left: 7.50%;
+transform: translate(-50%,-50%);
+width: 9%;
+height: 20%;
+background-color: red;
+}
+#main4{
+    position: absolute;
+    top: 90%;
+    left: 89%;
+    transform: translate(-50%,-50%);
+    width: 9%;
+    height:10%;
+    background-color: #161414ce;
+    z-index: 9  ;
+    transform: rotate(90deg);
+}
+#main4 h1{
+    position: relative;
+top: 46%;
+left: -26%;
+width: 55%;
+height: 7%;
+background-color:antiquewhite;
+transform: rotate(90deg);
+}
+#circle{
+position: absolute;
+top: 75%;
+left: 91.30%;
+/* transform: translate(-50%,-50%); */
+width: 60px;
+height: 60px;
+background-color: rgba(255, 255, 255, 0.438);
+border-radius: 50%;
+color: black;
+z-index: 20;
+}
+#circle a{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: rgba(255, 235, 205, 0.596);
+    font-family: Gilroy;
+    font-size: 40px;
+}
